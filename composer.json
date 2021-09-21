@@ -8,13 +8,12 @@
     "prefer-stable": true,
     "require": {
         "php": ">=7.3",
-        "openeuropa/task-runner": "~1"
+        "openeuropa/task-runner": "~1",
+        "behat/gherkin": "^4.0"
     },
     "require-dev": {
-        "behat/gherkin": "^4.5.1",
-        "openeuropa/code-review": "~1",
-        "phpunit/phpunit": "~7.5",
-        "symfony/filesystem": "~3.4 || ~4"
+        "openeuropa/code-review": "~1.7",
+        "phpunit/phpunit": "~7.5"
     },
     "autoload": {
         "psr-4": {
