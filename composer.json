@@ -1,0 +1,35 @@
+{
+    "name": "openeuropa/task-runner-ensure-behat-batching",
+    "description": "OpenEuropa TaskRunner command to ensure all Behat tests have batch tags.",
+    "keywords": ["Robo", "automation", "task-runner", "drupal", "Behat"],
+    "license": "EUPL-1.2",
+    "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.3",
+        "openeuropa/task-runner": "~1",
+        "behat/gherkin": "^4.0"
+    },
+    "require-dev": {
+        "openeuropa/code-review": "~1.7",
+        "phpunit/phpunit": "~7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "OpenEuropa\\EnsureBehatBatching\\": "./src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OpenEuropa\\EnsureBehatBatching\\Tests\\": "./tests/"
+        }
+    },
+    "extra": {
+        "enable-patching": true,
+        "composer-exit-on-patch-failure": true
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
