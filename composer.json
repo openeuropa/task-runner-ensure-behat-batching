@@ -30,6 +30,11 @@
         "composer-exit-on-patch-failure": true
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "cweagans/composer-patches": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "phpro/grumphp": true
+        }
     }
 }
