@@ -1,11 +1,20 @@
 # Changelog
 
+## [1.1.0](https://github.com/openeuropa/task-runner-ensure-behat-batching/tree/1.1.0) (2022-02-10)
+
+[Full Changelog](https://github.com/openeuropa/task-runner-ensure-behat-batching/compare/1.0.0...1.1.0)
+
+**Merged pull requests:**
+
+- EWPP-1917: Update to PHP8 [\#3](https://github.com/openeuropa/task-runner-ensure-behat-batching/pull/3) ([yenyasinn](https://github.com/yenyasinn))
+
 ## [1.0.0](https://github.com/openeuropa/task-runner-ensure-behat-batching/tree/1.0.0) (2021-10-08)
 
 [Full Changelog](https://github.com/openeuropa/task-runner-ensure-behat-batching/compare/6efee40f730c0567268ad2562094afb293dec8c7...1.0.0)
 
 **Merged pull requests:**
 
+- Release-1.0.0: Create changelog. [\#2](https://github.com/openeuropa/task-runner-ensure-behat-batching/pull/2) ([nagyad](https://github.com/nagyad))
 - EWPP-1475: Move behat:ensure-batching task runner to dedicated repo. [\#1](https://github.com/openeuropa/task-runner-ensure-behat-batching/pull/1) ([yenyasinn](https://github.com/yenyasinn))
 
 
