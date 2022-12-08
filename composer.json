@@ -8,11 +8,11 @@
     "prefer-stable": true,
     "require": {
         "php": ">=8.0",
-        "openeuropa/task-runner": "^2.0",
+        "openeuropa/task-runner": "2.x-dev",
         "behat/gherkin": "^4.0"
     },
     "require-dev": {
-        "openeuropa/code-review": "^2.0",
+        "openeuropa/code-review": "2.x-dev",
         "phpunit/phpunit": "^9.4"
     },
     "autoload": {
